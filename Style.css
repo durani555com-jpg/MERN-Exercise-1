@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9eef5;
+    color: #222;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+ul {
+    background-color: white;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .profile-card {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    ul {
+        padding: 15px 30px;
+    }
+}
